@@ -1,5 +1,5 @@
 from main.chatGPT.model import Prompt, Ingredient, Recipe, Steps
-from main.chatGPT.configs import promptList, footer, pimpShit
+from main.chatGPT.configs import promptList, footer
 from main.chatGPT.chatGPT import gpt
 from fastapi import APIRouter
 from typing import List
